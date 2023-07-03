@@ -46,7 +46,7 @@ class Staff(commands.Cog):
         await channel.send(f"{username.mention}")
         await channel.send(embed=embed)
         
-        await inter.response.send_message(":white_check_mark: **Sent it to <#1115706650100244580>.**", ephemeral=True)
+        await inter.response.send_message(":white_check_mark: **Sent it to <#1043944696268996658>.**", ephemeral=True)
 
 
     @commands.slash_command()
@@ -68,7 +68,7 @@ class Staff(commands.Cog):
             guild = inter.guild
             role = guild.get_role(1043944695677599766)
 
-        embed = disnake.Embed(title = "<:DCRP_LOGO:1120374872950972549> **DPD Movement** <:DCRP_LOGO:1120374872950972549>", color = color)
+        embed = disnake.Embed(title = " **DPD Movement** ", color = color)
 
         if approve == "":
             approve == inter.author
@@ -81,7 +81,7 @@ class Staff(commands.Cog):
 
         await channel.send(username.mention)
         await channel.send(embed=embed)
-        await inter.response.send_message(":white_check_mark: **Sent it to <#1115890559710679081>.**", ephemeral=True)
+        await inter.response.send_message(":white_check_mark: **Sent it to <#1043944696122179679>.**", ephemeral=True)
 
     # @commands.slash_command()
     # @commands.has_any_role(1115611692139819028, 1115635235795775588, 1115636523325460580, 1118966558669164564, 1115611714562555955)
